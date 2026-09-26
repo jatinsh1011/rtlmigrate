@@ -1,0 +1,58 @@
+{
+  "name": "rtl-migrate-cli",
+  "version": "0.1.0",
+  "description": "CLI + codemod that migrates physical LTR CSS / CSS-in-JS properties to RTL-ready logical properties (marginLeft -> marginInlineStart, etc.)",
+  "bin": {
+    "rtlmigrate": "./bin/rtlmigrate.js"
+  },
+  "main": "src/index.js",
+  "type": "commonjs",
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=16"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "keywords": [
+    "rtl",
+    "ltr",
+    "css",
+    "logical-properties",
+    "i18n",
+    "codemod",
+    "css-in-js",
+    "cli"
+  ],
+  "author": "jatinsh1011",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jatinsh1011/rtl-migrate-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jatinsh1011/rtl-migrate-cli/issues"
+  },
+  "homepage": "https://github.com/jatinsh1011/rtl-migrate-cli#readme",
+  "dependencies": {
+    "@babel/parser": "^7.24.0",
+    "@babel/traverse": "^7.24.0",
+    "@babel/types": "^7.24.0",
+    "commander": "^12.0.0",
+    "diff": "^5.2.0",
+    "fast-glob": "^3.3.2",
+    "picocolors": "^1.0.0",
+    "postcss": "^8.4.38",
+    "postcss-scss": "^4.0.9",
+    "recast": "^0.23.9"
+  },
+  "devDependencies": {
+    "vitest": "^1.4.0"
+  }
+}
