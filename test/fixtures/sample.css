@@ -1,0 +1,11 @@
+.box {
+  margin-left: 8px;
+  margin-right: 12px;
+  border-top-left-radius: 4px;
+  left: 50%;
+}
+
+.box[dir="rtl"] {
+  margin-left: 0;
+  margin-right: 8px;
+}
