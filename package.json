@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "CLI + codemod that migrates physical LTR CSS / CSS-in-JS properties to RTL-ready logical properties (marginLeft -> marginInlineStart, etc.)",
   "bin": {
-    "rtlmigrate": "./bin/rtlmigrate.js"
+    "rtlmigrate": "bin/rtlmigrate.js"
   },
   "main": "src/index.js",
   "type": "commonjs",
