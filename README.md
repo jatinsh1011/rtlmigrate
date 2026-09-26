@@ -101,7 +101,7 @@ patterns.
 npm login
 npm publish --access public
 git init && git add -A && git commit -m "Initial release"
-git remote add origin git@github.com:jatinsh1011/rtl-migrate-cli.git
+git remote add origin git@github.com:jatinsh1011/rtlmigrate.git
 git push -u origin main
 ```
 
